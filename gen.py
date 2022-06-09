@@ -105,7 +105,7 @@ if __name__ == '__main__':
     time.sleep(5)
     switch(1)
     print("adding fortnite to your list of games")
-    wait.until(EC.visibility_of_element_located([By.XPATH,'/html/body/div[1]/div/div[4]/main/div[2]/div/div/div/div[2]/div[3]/div/aside/div/div/div[4]/div/button'])).click()
+    wait.until(EC.visibility_of_element_located([By.XPATH,'/html/body/div[1]/div/div[4]/main/div[2]/div/div/div/div[2]/div[4]/div/aside/div/div/div[4]/div/button'])).click()
     wait.until(EC.visibility_of_element_located((By.ID, "agree"))).click()
     wait.until(EC.visibility_of_element_located((By.XPATH, '/html/body/div[5]/div/div/div/div[2]/div/div[2]/button'))).click()
     print(f"{email}:{password} Username:{username} FirstName:{firstname} LastName:{lastname}\n")
