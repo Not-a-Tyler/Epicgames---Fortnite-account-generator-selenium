@@ -133,7 +133,6 @@ if __name__ == '__main__':
         import undetected_chromedriver as uc
     except:
         os.system('pip.exe install --trusted-host pypi.org --trusted-host pypi.python.org --trusted-host files.pythonhosted.org undetected-chromedriver')
-    import legendary
     import undetected_chromedriver as uc
     from selenium.webdriver.common.by import By
     from selenium.webdriver.support.select import Select
